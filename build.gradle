@@ -1,0 +1,17 @@
+
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.sf.sociaal:freetts:1.2.2'
+}
+
+application {
+    mainClass = 'Main'
+}
+
